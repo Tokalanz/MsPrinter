@@ -61,7 +61,10 @@ WantedBy=multi-user.target
 
 
 sudo systemctl daemon-reload
+
 sudo systemctl enable msprinter
+
 sudo systemctl start msprinter
+
 journalctl -u msprinter -b
 
